@@ -17,6 +17,30 @@ class Image {
 		// TODO: Implement __construct() method.
 	}
 
+    public function getHeight() {
+        return $this->height;
+    }
+
+    public function setHeight($height) {
+        $this->height = $height;
+    }
+
+    public function getWidth() {
+        return $this->width;
+    }
+
+    public function setWidth($width) {
+        $this->width = $width;
+    }
+
+    public function getData() {
+        return $this->data;
+    }
+
+    public function setData($data) {
+        $this->data = $data;
+    }
+
 }
 
 
@@ -29,6 +53,30 @@ class TopArtist {
 	 * @var Image
 	 */
 	private $image;
+
+    public function getName() {
+        return $this->name;
+    }
+
+    public function setName($name) {
+        $this->name = $name;
+    }
+
+    public function getUrl() {
+        return $this->url;
+    }
+
+    public function setUrl($url) {
+        $this->url = $url;
+    }
+
+    public function getPlaycount() {
+        return $this->playcount;
+    }
+
+    public function setPlaycount($playcount) {
+        $this->playcount = $playcount;
+    }
 }
 
 
